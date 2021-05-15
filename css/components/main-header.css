@@ -1,0 +1,33 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    margin-right: 138px;
+    margin-left: 153px;
+}
+
+.main-header .logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Prompt', sans-serif; 
+    color: #0072BB;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main-header .action {
+    color: #9C9C9C;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 45px;
+}
+
+.main-header .action.-margin {
+    margin-right: 83px;
+}
+
+.main-header .action.-black {
+    color: #403F3F;
+    margin-right: 30px;
+}

@@ -1,0 +1,9 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+}
+
+body, figure {
+    margin: 0;
+    padding: 0;
+}
