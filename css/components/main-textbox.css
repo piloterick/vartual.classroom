@@ -1,0 +1,20 @@
+.main-textbox {
+    width: 552px;
+    margin-top: 92px;
+    margin-left: 150px;
+}
+
+.main-textbox .subtitle {
+    color: #3D88EA;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+
+.main-textbox .main-title {
+    margin-bottom: 25px;
+}
+
+.main-textbox .paragraph {
+    font-size: 21px;
+    margin-bottom: 40px;
+}
