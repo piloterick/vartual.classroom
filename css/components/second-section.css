@@ -1,0 +1,10 @@
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.second-section .main-wrapper {
+    margin-top: 67px;
+}
