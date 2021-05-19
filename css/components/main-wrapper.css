@@ -1,0 +1,60 @@
+.main-wrapper {
+    display: flex;
+    width: 1080px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main-wrapper::before {
+    content: "";
+    width: 703px;
+    height: 0;
+    border: 2px dashed #9EC8FF;
+    box-sizing: border-box;
+    position: absolute;
+    left: 188px;
+    top: 35px;
+}
+
+.main-wrapper .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 305px;
+    text-align: center;
+}
+
+.main-wrapper .wrapper::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "1";
+    font-size: 38px;
+    font-weight: 600;
+    width: 70px;
+    height: 70px;
+    background-color: #68A7FA;
+    border-radius: 8px;
+    color: #FFF;
+    z-index: 1;
+}
+
+.main-wrapper .wrapper.-num2::before {
+    content: "2";
+}
+
+.main-wrapper .wrapper.-num3::before {
+    content: "3";
+}
+
+.main-wrapper .title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 31px;
+    margin-bottom: 10px;
+}
+
+.main-wrapper .subtitle {
+    font-size: 18px;
+    font-weight: 400;
+}
