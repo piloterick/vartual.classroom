@@ -1,0 +1,23 @@
+.main-list {
+    display: block;
+    margin-left: 82px;
+    position: relative;
+    top: -42.5px;
+}
+
+.main-list .list {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: #3F3F40;
+    margin-bottom: 42px;
+}
+
+.main-list .list:last-of-type {
+    margin-bottom: 0;
+}
+
+.main-list .caption {
+    margin-left: 30px;
+}
